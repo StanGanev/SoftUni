@@ -1,0 +1,11 @@
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\bin\Debug\netcoreapp2.1\01 Raindrops.deps.json
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\bin\Debug\netcoreapp2.1\01 Raindrops.runtimeconfig.json
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\bin\Debug\netcoreapp2.1\01 Raindrops.runtimeconfig.dev.json
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\bin\Debug\netcoreapp2.1\01 Raindrops.dll
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\bin\Debug\netcoreapp2.1\01 Raindrops.pdb
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\obj\Debug\netcoreapp2.1\01 Raindrops.csprojAssemblyReference.cache
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\obj\Debug\netcoreapp2.1\01 Raindrops.csproj.CoreCompileInputs.cache
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\obj\Debug\netcoreapp2.1\01 Raindrops.AssemblyInfoInputs.cache
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\obj\Debug\netcoreapp2.1\01 Raindrops.AssemblyInfo.cs
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\obj\Debug\netcoreapp2.1\01 Raindrops.dll
+c:\users\stan\source\repos\CSharp Funda Exam\01 Raindrops\obj\Debug\netcoreapp2.1\01 Raindrops.pdb

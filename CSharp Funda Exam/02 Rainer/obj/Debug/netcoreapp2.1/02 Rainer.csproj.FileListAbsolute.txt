@@ -1,0 +1,10 @@
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\bin\Debug\netcoreapp2.1\02 Rainer.deps.json
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\bin\Debug\netcoreapp2.1\02 Rainer.runtimeconfig.json
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\bin\Debug\netcoreapp2.1\02 Rainer.runtimeconfig.dev.json
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\bin\Debug\netcoreapp2.1\02 Rainer.dll
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\bin\Debug\netcoreapp2.1\02 Rainer.pdb
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\obj\Debug\netcoreapp2.1\02 Rainer.csproj.CoreCompileInputs.cache
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\obj\Debug\netcoreapp2.1\02 Rainer.AssemblyInfoInputs.cache
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\obj\Debug\netcoreapp2.1\02 Rainer.AssemblyInfo.cs
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\obj\Debug\netcoreapp2.1\02 Rainer.dll
+c:\users\stan\source\repos\CSharp Funda Exam\02 Rainer\obj\Debug\netcoreapp2.1\02 Rainer.pdb
