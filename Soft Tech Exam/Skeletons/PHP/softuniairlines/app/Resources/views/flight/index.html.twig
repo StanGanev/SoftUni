@@ -1,0 +1,42 @@
+{% extends "base.html.twig" %}
+
+{% block main %}
+    <div class="wrapper">
+        <div class="flight-create">
+            <div class="create-header">
+                SoftUni Airlines
+            </div>
+        </div>
+        <br>
+        <div class="button-holder">
+            <a type="button" href="/create" class="log-button">Register Flight</a>
+        </div>
+        <div class="content">
+            <div class="header">
+                <div class="flight-label">Departure</div>
+                <div class="flight-label">Destination</div>
+                <div class="flight-label">Status</div>
+                <div class="flight-label">Actions</div>
+            </div>
+            <div class="main">
+                {% for flight in flights %}
+                    <div class="flight">
+                        <div class="flight-name">
+                            {{ flight.departure }}
+                        </div>
+                        <div class="flight-name">
+                            {{ flight.destination }}
+                        </div>
+                        <div class="flight-name">
+                            {{ flight.status}}
+                        </div>
+                        <div class="flight-actions">
+                            <a type="button" href="{{ path('edit', {id: flight.id}) }}" class="edit-button">Edit</a>
+                            <a type="button" href="{{ path('delete', {id: flight.id}) }}" class="delete-button">Archive</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

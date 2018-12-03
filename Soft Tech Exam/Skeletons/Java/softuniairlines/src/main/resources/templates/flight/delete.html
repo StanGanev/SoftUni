@@ -1,0 +1,23 @@
+<div class="wrapper">
+    <form class="flight-create" method="post" th:action="@{/delete/{id}(id=${flight.id})}">
+        <div class="create-header">
+            Archive Flight
+        </div>
+        <div class="create-name">
+            <div class="create-label">Departure</div>
+            <input class="create-content" name="departure" th:field="${flight.departure}" disabled="disabled"/>
+        </div>
+        <div class="create-name">
+            <div class="create-label">Destination</div>
+            <input class="create-content" name="destination" th:field="${flight.destination}" disabled="disabled"/>
+        </div>
+        <div class="create-name">
+            <div class="create-label">Status</div>
+            <input class="create-content" name="status" th:field="${flight.status}" disabled="disabled"/>
+        </div>
+        <div class="create-button-holder">
+            <button type="submit" class="submit-button">Archive</button>
+            <a type="button" href="/" class="back-button">Back</a>
+        </div>
+    </form>
+</div>

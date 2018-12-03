@@ -1,0 +1,31 @@
+﻿@model Flight
+
+@{
+    ViewData["Title"] = "Archive";
+}
+
+<div class="wrapper">
+    @using (Html.BeginForm("Delete", "Flights", FormMethod.Post, new { @class = "flight-create" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="create-header">
+            Archive Flight
+        </div>
+        <div class="create-name">
+            <div class="create-label">Departure</div>
+            <input class="create-content" name="from" value="@Model.Departure" disabled="disabled" />
+        </div>
+        <div class="create-name">
+            <div class="create-label">Destination</div>
+            <input class="create-content" name="to" value="@Model.Destination" disabled="disabled" />
+        </div>
+        <div class="create-name">
+            <div class="create-label">Status</div>
+            <input class="create-content" name="status" disabled="disabled" value="@Model.Status" />
+        </div>
+        <div class="create-button-holder">
+            <button type="submit" class="submit-button">Archive</button>
+            <a type="button" href="/" class="back-button">Back</a>
+        </div>
+    }
+</div>

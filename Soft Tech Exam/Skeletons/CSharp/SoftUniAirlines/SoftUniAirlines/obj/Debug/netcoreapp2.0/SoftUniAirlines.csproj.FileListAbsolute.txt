@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\bin\Debug\netcoreapp2.0\SoftUniAirlines.deps.json
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\bin\Debug\netcoreapp2.0\SoftUniAirlines.runtimeconfig.json
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\bin\Debug\netcoreapp2.0\SoftUniAirlines.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\bin\Debug\netcoreapp2.0\SoftUniAirlines.dll
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\bin\Debug\netcoreapp2.0\SoftUniAirlines.pdb
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\obj\Debug\netcoreapp2.0\SoftUniAirlines.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\obj\Debug\netcoreapp2.0\SoftUniAirlines.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\obj\Debug\netcoreapp2.0\SoftUniAirlines.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\obj\Debug\netcoreapp2.0\SoftUniAirlines.AssemblyInfo.cs
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\obj\Debug\netcoreapp2.0\SoftUniAirlines.dll
+C:\Users\Dell\Desktop\SoftUni Airlines_Skeletons\Skeletons\CSharp\SoftUniAirlines\SoftUniAirlines\obj\Debug\netcoreapp2.0\SoftUniAirlines.pdb

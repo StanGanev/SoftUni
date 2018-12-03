@@ -1,0 +1,38 @@
+<div class="wrapper">
+    <div class="flight-create">
+        <div class="create-header">
+            SoftUni Airlines
+        </div>
+    </div>
+    <br>
+    <div class="button-holder">
+        <a type="button" href="/create" class="log-button">Register Flight</a>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="flight-label">Departure</div>
+            <div class="flight-label">Destination</div>
+            <div class="flight-label">Status</div>
+            <div class="flight-label">Actions</div>
+        </div>
+        <div class="main">
+            {{# each flights}}
+                <div class="flight">
+                    <div class="flight-name">
+                        {{ departure }}
+                    </div>
+                    <div class="flight-name">
+                        {{ destination }}
+                    </div>
+                    <div class="flight-name">
+                        {{ status }}
+                    </div>
+                    <div class="flight-actions">
+                        <a type="button" href="/edit/{{id}}" class="edit-button">Edit</a>
+                        <a type="button" href="/delete/{{id}}" class="delete-button">Archive</a>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

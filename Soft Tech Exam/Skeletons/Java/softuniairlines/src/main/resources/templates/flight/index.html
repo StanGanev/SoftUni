@@ -1,0 +1,32 @@
+<div class="wrapper" xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="flight-create">
+        <div class="create-header">
+            SoftUni Airlines
+        </div>
+    </div>
+    <br></br>
+    <div class="button-holder">
+        <a type="button" href="/create" class="log-button">Register Flight</a>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="flight-label">Departure</div>
+            <div class="flight-label">Destination</div>
+            <div class="flight-label">Status</div>
+            <div class="flight-label">Actions</div>
+        </div>
+        <div class="main">
+            <th:block th:each="flight : ${flights}">
+                <div class="flight">
+                    <div class="flight-name" th:text="${flight.departure}"></div>
+                    <div class="flight-name" th:text="${flight.destination}"></div>
+                    <div class="flight-name" th:text="${flight.status}"></div>
+                    <div class="flight-actions">
+                        <a type="button" th:href="@{/edit/{id}(id=${flight.id})}" class="edit-button">Edit</a>
+                        <a type="button" th:href="@{/delete/{id}(id=${flight.id})}" class="delete-button">Archive</a>
+                    </div>
+                </div>
+            </th:block>
+        </div>
+    </div>
+</div>

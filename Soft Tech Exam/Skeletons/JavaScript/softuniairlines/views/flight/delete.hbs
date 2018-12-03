@@ -1,0 +1,23 @@
+<div class="wrapper">
+    <form class="flight-create" method="post">
+        <div class="create-header">
+            Archive Flight
+        </div>
+        <div class="create-name">
+            <div class="create-label">Departure</div>
+            <input class="create-content" name="flight[departure]" readonly value="{{ flight.departure }}"/>
+        </div>
+        <div class="create-name">
+            <div class="create-label">Destination</div>
+            <input class="create-content" name="flight[destination]" readonly value="{{ flight.destination}}"/>
+        </div>
+        <div class="create-name">
+            <div class="create-label">Status</div>
+            <input class="create-content" name="flight[status]" readonly value="{{ flight.status}}"/>
+        </div>
+        <div class="create-button-holder">
+            <button type="submit" class="submit-button">Archive</button>
+            <a type="button" href="/" class="back-button">Back</a>
+        </div>
+    </form>
+</div>

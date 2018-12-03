@@ -1,0 +1,36 @@
+﻿@model Flight
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="wrapper">
+    @using (Html.BeginForm("Create", "Flights", FormMethod.Post, new { @class = "flight-create" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="create-header">
+            Add Flight
+        </div>
+        <div class="create-name">
+            <div class="create-label">Departure</div>
+            <input class="create-content" name="departure" />
+        </div>
+        <div class="create-name">
+            <div class="create-label">Destination</div>
+            <input class="create-content" name="destination" />
+        </div>
+        <div class="create-name">
+            <div class="create-label">Status</div>
+            @Html.DropDownList(nameof(Model.Status), new []
+            {
+                new SelectListItem{Text = "Delayed", Value = "Delayed"},
+                new SelectListItem{Text = "Landed", Value = "Landed" },
+                new SelectListItem{Text = "Expected", Value = "Expected"},
+            }, new {@class = "create-submit"})
+        </div>
+        <div class="create-button-holder">
+            <button type="submit" class="submit-button">Add</button>
+            <a type="button" href="/" class="back-button">Back</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Flight>
+
+@{
+    ViewData["Title"] = "SoftUni Airlines";
+}
+<div class="wrapper">
+    <div class="flight-create">
+        <div class="create-header">
+            SoftUni Airlines
+        </div>
+    </div>
+    <br />
+    <div class="button-holder">
+        <a type="button" href="/create" class="log-button">Register Flight</a>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="flight-label">Departure</div>
+            <div class="flight-label">Destination</div>
+            <div class="flight-label">Status</div>
+            <div class="flight-label">Action</div>
+        </div>
+        <div class="main">
+            @foreach (var flight in Model.ToList())
+            {
+                <div class="flight">
+                    <div class="flight-name">
+                        @(flight.Departure)
+                    </div>
+                    <div class="flight-name">
+                        @(flight.Destination)
+                    </div>
+                    <div class="flight-name">
+                        @(flight.Status)
+                    </div>
+                    <div class="flight-actions">
+                        @Html.ActionLink("Edit", "Edit", "Flights", new { id = flight.Id }, new { @class = "edit-button" })
+                        @Html.ActionLink("Archive", "Delete", "Flights", new { id = flight.Id }, new { @class = "delete-button" })
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

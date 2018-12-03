@@ -1,0 +1,32 @@
+{% extends "base.html.twig" %}
+
+{% block main %}
+    <div class="wrapper">
+        <form class="flight-create" method="post">
+            <div class="create-header">
+                Add Flight
+            </div>
+            <div class="create-name">
+                <div class="create-label">Departure</div>
+                <input class="create-content" name="flight[departure]"/>
+            </div>
+            <div class="create-name">
+                <div class="create-label">Destination</div>
+                <input class="create-content" name="flight[destination]"/>
+            </div>
+            <div class="create-name">
+                <div class="create-label">Status</div>
+                <select class="create-submit" name="flight[status]">
+                    <option value="Delayed">Delayed</option>
+                    <option value="Landed">Landed</option>
+                    <option value="Expected">Expected</option>
+                </select>
+            </div>
+            <div class="create-button-holder">
+                <button type="submit" class="submit-button">Add</button>
+                <a type="button" href="/" class="back-button">Back</a>
+            </div>
+            {{ form_row(form._token) }}
+        </form>
+    </div>
+{% endblock %}
